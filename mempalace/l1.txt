@@ -1,0 +1,23 @@
+## L1 - table of contents
+
+Primary memory is the MemPalace store at C:\Users\trngs\.cursor\mempalace\palace.
+Each hall is one drawer. Overlapping sections were filed once.
+wing_global holds the preferences and advice from C:\Users\trngs\.cursor\MEMORY.md.
+wing_tarangnsharma holds the facts, the session-log line, and visual QA from c:\Users\trngs\Desktop\tarangnsharma\MEMORY.md.
+The original files stay on disk. Read MEMORY.md first. Search Chroma only when it does not answer.
+
+- Working memory - context window, no file
+- Episodic - Interview Prep/books/flutter resources/teacher/SESSION-LOG.md
+- Semantic, this repo - c:\Users\trngs\Desktop\tarangnsharma\MEMORY.md
+- Semantic, every laptop - C:\Users\trngs\.cursor\MEMORY.md
+- Procedural, this repo - .cursor/rules/tarang-spoken-pacing.mdc
+- Procedural, every laptop - C:\Users\trngs\.cursor\rules\tarang-standing.mdc
+- Four types - agent-suite/diagrams/four-types-of-memory.svg
+- Palace plan - agent-suite/mempalace-upgrade-plan.md
+- Palace picture - agent-suite/diagrams/memory-palace-infographic.svg
+- Style guide - agent-suite/infographic-suite/infographic-style-guide.md
+- Diagrams - agent-suite/diagrams/
+- Suite readme - agent-suite/README.md
+- Suite map - agent-suite/SUITE.md
+- Suite diagram - agent-suite/diagrams/agent-suite-diagram.svg
+- Voice pipeline - agent-suite/voice-prompt-pipeline.md

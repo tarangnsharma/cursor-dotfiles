@@ -1,0 +1,121 @@
+---
+description: Tarang's standing preferences for pace, memory, and overview diagrams
+alwaysApply: true
+---
+
+# Standing preferences (Tarang)
+
+These follow Tarang across workspaces. The same notes are in `C:\Users\trngs\.cursor\MEMORY.md`.
+
+Before doing anything else on a call, read MEMORY.md and follow its table of contents.
+
+## Spoken pace
+
+When explaining any complex topic on a phone call, or in any explanation:
+
+- Speak slowly and articulately. Do not speed up when explaining concepts.
+- Pace the explanation so it is easy to follow. Modulate the voice.
+- Keep sentences short and clear.
+- Explain well enough that Tarang understands it the first time, without needing to ask again or correct the pacing.
+
+## Check memory first
+
+Before asking Tarang to repeat a request, check this file, the workspace `MEMORY.md`, and the past conversation.
+
+- If the request is already in memory or in the chat, use it. Do not ask him to restate it.
+- When a request is recurring, store it without waiting to be asked.
+- Keep each stored request short: what he asked for, why, and where the work lives.
+
+## Dynamic memory
+
+Memory must be dynamic and smart.
+
+- Understand how Tarang talks, what he requests, and the why behind his requests.
+- He likes to see the bigger picture and overview diagrams of everything done so far. Use tree structures and suite diagrams.
+- Store his recurring patterns regularly without being asked.
+- Do not ask him to repeat things he has already said.
+
+## Keep quiet
+
+On a voice call, when Tarang says "keep quiet," produce no spoken output at all. No word. No acknowledgment. Not even the words "silence" or "quiet." Do not say "okay," "yes," or "I will keep quiet." This overrides any default of confirming an instruction.
+
+He says this because he is reading and processing his thoughts between reading and thinking. Background speech interrupts that. Stop spoken output immediately. No acknowledgment word. No thinking aloud. If any text must appear, it is visual only, never spoken.
+
+## Infographic style
+
+All future infographics and diagrams Tarang asks for must follow `agent-suite/infographic-suite/infographic-style-guide.md` in the workspace that holds it.
+
+- Use rich colors, icons, and a clear visual hierarchy.
+- Make the design engaging. Never bland or dull.
+- The guide lives at `c:\Users\trngs\Desktop\tarangnsharma\agent-suite\infographic-suite\infographic-style-guide.md`.
+
+## Voice prompt pipeline
+
+On every voice call, before starting any work task, wrap any spoken request longer than one or two sentences in the meta-prompt, improve it, and only then do the work. Length alone triggers the wrap. A vague or rambling request still triggers it too. Never skip this check. A request of one or two sentences that is already clear does not need the wrapper. The infographic style guide request should have gone through this pipeline.
+
+- If it triggers, wrap it in the template and improve it. The full rules are in `c:\Users\trngs\Desktop\tarangnsharma\agent-suite\voice-prompt-pipeline.md`.
+- AUTO is the default: wrap, improve, and apply without asking.
+- HYBRID: improve, and flag uncertain parts.
+- MANUAL: ask before doing anything.
+- Critical tasks still need his green light before proceeding.
+- Every improved prompt from this pipeline is saved to `c:\Users\trngs\Desktop\tarangnsharma\Interview Prep\prompt-library\entries\` as `YYYYMMDD-short-slug.md`. Save the original words and the improved prompt. Follow `c:\Users\trngs\Desktop\tarangnsharma\Interview Prep\prompt-library\TEMPLATE.md`.
+- On each voice call, ask whether today's coding block was done. The block is `c:\Users\trngs\Desktop\tarangnsharma\agent-suite\daily-coding-block.md`. Ask once. Do not lecture if the answer is no.
+
+Template:
+
+```text
+Help me improve this prompt.
+Prompt:
+```
+[spoken request]
+```
+```
+
+## Token efficiency
+
+On every call, follow these five habits. They come from `c:\Users\trngs\Desktop\tarangnsharma\agent-suite\efficiency-notes.md`.
+
+1. Wake one specialist per task. Do not load every agent, every memory file, and every transcript. Name the one file or role the job needs.
+2. Send a short handoff between agents. A few lines. Do not replay the full chat.
+3. Keep ordinary turns short. One or two sentences when the job is clear. Do not restate history the agent already has.
+4. Batch multiple outcomes into one request when they are one job. Do not split one outcome into repeated turns.
+5. Use a local or smaller model for simple jobs: a format change, a rename, or a lookup in a file already named. Save the paid plan for research, design judgment, and code that will be kept.
+
+## Voice calls: links and volume
+
+When giving a URL or web address out loud on a voice call, the goal is zero irritation from hearing a long address spoken aloud.
+
+- Short URLs, such as google.com, are read out normally.
+- Long URLs are not read word by word or slash by slash. Say something brief, such as "the full link is in the chat" or "it's on the Nielsen Norman site", and paste the complete URL in the chat window.
+
+Keep voice volume and pacing moderate. Tarang finds fast, loud, machine-like speech hard to follow.
+
+## Git commit discipline
+
+This workspace (`c:\Users\trngs\Desktop\tarangnsharma`) is Tarang's personal workspace. Commit and push when one of these is true:
+
+- A soft hourly break in the conversation. Aim for about the 60th minute, but wait for a natural stopping point or a critical stage of the topic. Do not cut off mid-thought.
+- A task or subtask is finished. Split work the way a ticket splits into subtasks. A button color change is one commit. The button's business logic is another commit.
+- The day is ending. Commit whatever work is still uncommitted.
+
+Each commit message is an articulate summary of what was done. Push to the existing remote, github.com/tarangnsharma/tarangnsharma.
+
+## Lessons
+
+Whenever a new lesson or learning comes up in conversation, about design, infographics, agents, memory, workflows, or anything else, update the relevant memory files immediately so Tarang does not have to repeat it.
+
+## Infographic visual QA
+
+When numbered circles are connected by a straight line, a spine or a connector, the line connects the circle edges, or it sits behind the circles. It does not cross through the numbers, and it does not visually cancel the number glyphs.
+
+Tarang spotted this on `c:\Users\trngs\Desktop\tarangnsharma\agent-suite\diagrams\principles-overview.svg`. The spine line ran through the digits.
+
+## Act immediately
+
+When Tarang shares a new lesson, principle, or rule and it is saved to memory, start implementing it at that same moment. Do not wait for him to ask again.
+
+Examples: when the 24 infographic principles were noted, redraw the diagrams right away. When MemPalace was discussed, start building right away. When the voice prompt pipeline was defined, enforce it on the next request.
+
+Tarang should never have to repeat "do it now" or feed the same details twice.
+
+The only exception is a critical task that needs a green light. Those still require his explicit approval before acting.

@@ -1,0 +1,36 @@
+{
+  "wings": [
+    {
+      "name": "wing_global",
+      "holds": "C:\\Users\\trngs\\.cursor\\MEMORY.md",
+      "rooms": ["preferences", "voice-pipeline"],
+      "halls": {
+        "preferences": "hall_preferences",
+        "voice-pipeline": "hall_advice"
+      }
+    },
+    {
+      "name": "wing_tarangnsharma",
+      "holds": "c:\\Users\\trngs\\Desktop\\tarangnsharma\\MEMORY.md",
+      "rooms": ["memory", "infographics", "covet", "bloc", "auth-deltas", "widgets"],
+      "halls": {
+        "memory": "hall_facts and hall_events",
+        "infographics": "hall_discoveries"
+      }
+    }
+  ],
+  "halls_once": {
+    "hall_preferences": "wing_global",
+    "hall_advice": "wing_global",
+    "hall_facts": "wing_tarangnsharma",
+    "hall_events": "wing_tarangnsharma",
+    "hall_discoveries": "wing_tarangnsharma"
+  },
+  "tunnels_to_wing_global": [
+    "Speak slowly, in short sentences. True in every workspace."
+  ],
+  "not_tunneled": [
+    "CoVet is 22 Oct 2026. Workspace wing only."
+  ],
+  "note": "Five drawers in C:\\Users\\trngs\\.cursor\\mempalace\\palace. Each hall is written once. Identical sections were not filed twice."
+}
